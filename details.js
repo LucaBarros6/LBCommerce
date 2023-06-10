@@ -34,7 +34,8 @@ const fetchProduct = async () => {
   const productContainer = document.createElement("div");
   productContainer.innerHTML = `
     ${productDataToHtml(product)}
-    <button onclick='addItemToCart(${product.id})'>Comprar</button>
+    <div class="descpr">${product.description}</div>
+    <button class="buttoncart" onclick='addItemToCart(${product.id})'>Comprar</button>
   `;
 
   productDataDiv.appendChild(productContainer);
