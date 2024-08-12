@@ -1,4 +1,4 @@
-const baseApiUrl = "https://fakestoreapi.com";
+const baseApiUrl = "https://fakestoreapi.com/products";
 
 const cartLocalStorageKey = "cart-items";
 
