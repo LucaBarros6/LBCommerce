@@ -1,4 +1,4 @@
-const baseApiUrl = "https://fakestoreapi.com/products";
+const baseApiUrl = "https://diwserver.vps.webdock.cloud/";
 
 const cartLocalStorageKey = "cart-items";
 
