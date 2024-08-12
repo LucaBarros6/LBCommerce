@@ -131,7 +131,7 @@ header li:hover {
 footer {
   background-color: black;
   padding: 40px;
-  position: fixed;
+  position: absolute;
 }
 
 .container {
